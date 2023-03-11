@@ -447,6 +447,8 @@ span{
     background: url(../img/bgimg.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     filter: brightness(20%);
 }
 /* style copyright section */
@@ -565,5 +567,8 @@ span{
     .diet .content .row .cols .boxes{
         width: 90%;
         margin: auto;
+    }
+    .contact .content .bgimg{
+        background-attachment: scroll;
     }
 }
